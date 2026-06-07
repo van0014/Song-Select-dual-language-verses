@@ -1,1 +1,4 @@
-This script takes a text file and looks for the lyrics using a basic system. Please edit your song files before translating them. This script does not read song section titles, such as bridge, chorus or verse. Instead, these are detected as the first line after blank spaces. These lines are not translated, while the lines below them are. Many songs have a blank line inbetween lyrics that are meant to be part of the section right before the blank line happened. You will need to either remove the blank line, add another title, or edit this script
+This script takes a text file and looks for the lyrics using a basic system. 
+
+DeepL is used to automate accurate translations;
+You will need to add your DeepL API key into the python text file to use this script
