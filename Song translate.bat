@@ -1,3 +1,7 @@
 cd /D "%~dp0"
-python song-translate.py --infile %1
+
+for %%F in (%*) do (
+    python song-translate.py --infile "%%F"
+)
+
 pause
