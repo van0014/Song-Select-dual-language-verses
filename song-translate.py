@@ -43,7 +43,7 @@ def write_line(f, text):
 # API key
 # -----------------------------
 if args.apikey is None:
-    args.apikey = "51a696aa-01af-41fa-9418-0f75d1694bd3:fx"
+    args.apikey = "DeepL API key"
 
 # -----------------------------
 # File validation
